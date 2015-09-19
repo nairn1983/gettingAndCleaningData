@@ -10,7 +10,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 Assuming that this has been saved to a file named `dataset.zip`, the summarised data can be obtained in R by loading the `run_analysis.R` script and calling the `runAnalysis` function:
 
-```source("run_analysis.R")
+```
+source("run_analysis.R")
 data <- runAnalysis("dataset.zip")
 ```
 
