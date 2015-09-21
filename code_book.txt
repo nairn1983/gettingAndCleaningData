@@ -1,70 +1,211 @@
 Code book for Getting and Cleaning Data course project
 
-activity
-subject
+activity	18
+	Activity type
+		LAYING
+		SITTING
+		STANDING
+		WALKING
+		WALKING_DOWNSTAIRS
+		WALKING_UPSTAIRS
+		
+subject		2
+	1..30 Subject number for this test
+
 tBodyAcc.mean...X
+	-1..1	Mean, for the given activity type and subject, of mean body acceleration over time in x direction
+
 tBodyAcc.mean...Y
+	-1..1	Mean, for the given activity type and subject, of mean body acceleration over time in y direction
+
 tBodyAcc.mean...Z
+	-1..1	Mean, for the given activity type and subject, of mean body acceleration over time in z direction
+
 tBodyAcc.std...X
+	-1..1	Mean, for the given activity type and subject, of standard deviation of body acceleration over time in x direction
+
 tBodyAcc.std...Y
+	-1..1	Mean, for the given activity type and subject, of standard deviation of body acceleration over time in y direction
+
 tBodyAcc.std...Z
+	-1..1	Mean, for the given activity type and subject, of standard deviation of body acceleration over time in z direction
+
 tGravityAcc.mean...X
+	-1..1	Mean, for the given activity type and subject, of mean gravity acceleration over time in x direction
+
 tGravityAcc.mean...Y
+	-1..1	Mean, for the given activity type and subject, of mean gravity acceleration over time in y direction
+	
 tGravityAcc.mean...Z
+	-1..1	Mean, for the given activity type and subject, of mean gravity acceleration over time in z direction
+	
 tGravityAcc.std...X
+	-1..1	Mean, for the given activity type and subject, of standard deviation of gravity acceleration over time in x direction
+
 tGravityAcc.std...Y
+	-1..1	Mean, for the given activity type and subject, of standard deviation of gravity acceleration over time in y direction
+
 tGravityAcc.std...Z
+	-1..1	Mean, for the given activity type and subject, of standard deviation of gravity acceleration over time in z direction
+
 tBodyAccJerk.mean...X
+	-1..1	Mean, for the given activity type and subject, of mean BodyAccJerk over time in x direction
+
 tBodyAccJerk.mean...Y
+	-1..1	Mean, for the given activity type and subject, of mean BodyAccJerk over time in y direction
+
 tBodyAccJerk.mean...Z
+	-1..1	Mean, for the given activity type and subject, of mean BodyAccJerk over time in z direction
+
 tBodyAccJerk.std...X
+	-1..1	Mean, for the given activity type and subject, of standard deviation of BodyAccJerk over time in x direction
+
 tBodyAccJerk.std...Y
+	-1..1	Mean, for the given activity type and subject, of standard deviation of BodyAccJerk over time in y direction
+
 tBodyAccJerk.std...Z
+	-1..1	Mean, for the given activity type and subject, of standard deviation of BodyAccJerk over time in z direction
+
 tBodyGyro.mean...X
+	-1..1	Mean, for the given activity type and subject, of mean BodyBodyGyro over time in x direction
+
 tBodyGyro.mean...Y
+	-1..1	Mean, for the given activity type and subject, of mean BodyBodyGyro over time in y direction
+
 tBodyGyro.mean...Z
+	-1..1	Mean, for the given activity type and subject, of mean BodyBodyGyro over time in z direction
+
 tBodyGyro.std...X
+	-1..1	Mean, for the given activity type and subject, of standard deviation of BodyBodyGyro over time in x direction
+
 tBodyGyro.std...Y
+	-1..1	Mean, for the given activity type and subject, of standard deviation of BodyBodyGyro over time in y direction
+
 tBodyGyro.std...Z
+	-1..1	Mean, for the given activity type and subject, of standard deviation of BodyBodyGyro over time in z direction
+
 tBodyGyroJerk.mean...X
+	-1..1	Mean, for the given activity type and subject, of mean of BodyGyroJerk over time in x direction
+
 tBodyGyroJerk.mean...Y
+	-1..1	Mean, for the given activity type and subject, of mean of BodyGyroJerk over time in y direction
+
 tBodyGyroJerk.mean...Z
+	-1..1	Mean, for the given activity type and subject, of mean of BodyGyroJerk over time in z direction
+
 tBodyGyroJerk.std...X
+	-1..1	Mean, for the given activity type and subject, of standard deviation of BodyGyroJerk over time in x direction
+
 tBodyGyroJerk.std...Y
+	-1..1	Mean, for the given activity type and subject, of standard deviation of BodyGyroJerk over time in y direction
+
 tBodyGyroJerk.std...Z
+	-1..1	Mean, for the given activity type and subject, of standard deviation of BodyGyroJerk over time in z direction
+
 tBodyAccMag.mean
+	-1..1	Mean, for the given activity type and subject, of mean BodyAccMag over time
+
 tBodyAccMag.std
+	-1..1	Mean, for the given activity type and subject, of standard deviation of BodyAccMag over time
+
 tGravityAccMag.mean
+	-1..1	Mean, for the given activity type and subject, of mean GravityAccMag over time
+
 tGravityAccMag.std
+	-1..1	Mean, for the given activity type and subject, of standard deviation of GravityAccMag over time
+
 tBodyAccJerkMag.mean
+	-1..1	Mean, for the given activity type and subject, of mean BodyAccJerkMag over time
+
 tBodyAccJerkMag.std
+	-1..1	Mean, for the given activity type and subject, of standard deviation of BodyAccJerkMag over time
+
 tBodyGyroMag.mean
-tBodyGyroMag.std
+	-1..1	Mean, for the given activity type and subject, of mean BodyGyroMag over time
+
+tBodyGyroMag.
+	-1..1	Mean, for the given activity type and subject, of standard deviation of BodyGyroMag over time
+
 tBodyGyroJerkMag.mean
+	-1..1	Mean, for the given activity type and subject, of mean BodyGyroJerkMag over time
+
 tBodyGyroJerkMag.std
+	-1..1	Mean, for the given activity type and subject, of standard deviation of BodyGyroJerkMag over time
+
 fBodyAcc.mean...X
+	-1..1	Mean, for the given activity type and subject, of mean of fast Fourier transform of body acceleration in x direction
+
 fBodyAcc.mean...Y
+	-1..1	Mean, for the given activity type and subject, of mean of fast Fourier transform of body acceleration in y direction
+
 fBodyAcc.mean...Z
+	-1..1	Mean, for the given activity type and subject, of mean of fast Fourier transform of body acceleration in z direction
+
 fBodyAcc.std...X
+	-1..1	Mean, for the given activity type and subject, of standard deviation of fast Fourier transform of body acceleration in x direction
+
 fBodyAcc.std...Y
+	-1..1	Mean, for the given activity type and subject, of standard deviation of fast Fourier transform of body acceleration in y direction
+
 fBodyAcc.std...Z
+	-1..1	Mean, for the given activity type and subject, of standard deviation of fast Fourier transform of body acceleration in z direction
+
 fBodyAccJerk.mean...X
+	-1..1	Mean, for the given activity type and subject, of mean of fast Fourier transform of BodyAccJerk in x direction
+
 fBodyAccJerk.mean...Y
+	-1..1	Mean, for the given activity type and subject, of mean of fast Fourier transform of BodyAccJerk in y direction
+
 fBodyAccJerk.mean...Z
+	-1..1	Mean, for the given activity type and subject, of mean of fast Fourier transform of BodyAccJerk in z direction
+
 fBodyAccJerk.std...X
+	-1..1	Mean, for the given activity type and subject, of standard deviation of fast Fourier transform of BodyAccJerk in x direction
+
 fBodyAccJerk.std...Y
+	-1..1	Mean, for the given activity type and subject, of standard deviation of fast Fourier transform of BodyAccJerk in y direction
+
 fBodyAccJerk.std...Z
+	-1..1	Mean, for the given activity type and subject, of standard deviation of fast Fourier transform of BodyAccJerk in z direction
+
 fBodyGyro.mean...X
+	-1..1	Mean, for the given activity type and subject, of mean of fast Fourier transform of BodyGyro in x direction
+
 fBodyGyro.mean...Y
+	-1..1	Mean, for the given activity type and subject, of mean of fast Fourier transform of BodyGyro in y direction
+
 fBodyGyro.mean...Z
+	-1..1	Mean, for the given activity type and subject, of mean of fast Fourier transform of BodyGyro in z direction
+
 fBodyGyro.std...X
+	-1..1	Mean, for the given activity type and subject, of standard deviation of fast Fourier transform of BodyGyro in x direction
+
 fBodyGyro.std...Y
+	-1..1	Mean, for the given activity type and subject, of standard deviation of fast Fourier transform of BodyGyro in y direction
+
 fBodyGyro.std...Z
+	-1..1	Mean, for the given activity type and subject, of standard deviation of fast Fourier transform of BodyGyro in z direction
+
 fBodyAccMag.mean
+	-1..1	Mean, for the given activity type and subject, of mean of fast Fourier transform of BodyAccMag
+
 fBodyAccMag.std
+	-1..1	Mean, for the given activity type and subject, of standard deviation of fast Fourier transform of BodyAccMag
+
 fBodyBodyAccJerkMag.mean
+	-1..1	Mean, for the given activity type and subject, of mean of fast Fourier transform of BodyBodyAccJerkMag
+
 fBodyBodyAccJerkMag.std
+	-1..1	Mean, for the given activity type and subject, of standard deviation of fast Fourier transform of BodyBodyAccJerkMag
+
 fBodyBodyGyroMag.mean
+	-1..1	Mean, for the given activity type and subject, of mean of fast Fourier transform of BodyBodyGyroMag
+
 fBodyBodyGyroMag.std
+	-1..1	Mean, for the given activity type and subject, of standard deviation of fast Fourier transform of BodyBodyGyroMag
+
 fBodyBodyGyroJerkMag.mean
+	-1..1	Mean, for the given activity type and subject, of mean of fast Fourier transform of BodyBodyGyroJerkMag
+
 fBodyBodyGyroJerkMag.std
+	-1..1	Mean, for the given activity type and subject, of standard deviation of fast Fourier transform of BodyBodyGyroJerkMag
