@@ -29,4 +29,4 @@ The resulting summarised dataset will then be stored in the `data` object. Any f
 
 ## Codebook
 
-To do.
+The code book can be obtained from [here](https://github.com/nairn1983/gettingAndCleaningData/blob/master/code_book.txt). This describes each feature in the dataset returned by calling the `runAnalysis` function, describing each feature as best as possible if the meaning of each term can be immediately inferred.
